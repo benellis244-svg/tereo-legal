@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tereo Privacy Policy</title>
+<meta name="description" content="Tereo Privacy Policy — Tereo, the Bible memorization app.">
+<style>
+:root{
+  --ground:#FBF7EE; --surface:#FFFFFF; --ink:#1C2B21; --ink-soft:#546459;
+  --rule:#E4DCCB; --accent:#3D8B2E; --accent-soft:#EDF5E8;
+}
+@media (prefers-color-scheme:dark){:root{
+  --ground:#121A15; --surface:#18221C; --ink:#E9E4D6; --ink-soft:#A2B0A6;
+  --rule:#2A3830; --accent:#8CCB72; --accent-soft:#1D2A20;
+}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);
+  font:17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  -webkit-text-size-adjust:100%}
+.wrap{max-width:720px;margin:0 auto;padding:40px 22px 80px}
+header.top{border-bottom:2px solid var(--ink);padding-bottom:18px;margin-bottom:8px}
+.brand{font-size:13px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;
+  color:var(--accent);margin:0 0 8px;text-decoration:none;display:inline-block}
+h1{font-size:clamp(30px,6vw,42px);line-height:1.1;margin:0 0 10px;letter-spacing:-.02em}
+.effective{color:var(--ink-soft);font-size:15px;margin:0}
+h2{font-size:21px;margin:38px 0 10px;letter-spacing:-.01em}
+p{margin:0 0 14px}
+ul{margin:0 0 16px;padding-left:22px}
+li{margin-bottom:7px}
+a{color:var(--accent)}
+nav.links{display:flex;flex-wrap:wrap;gap:10px;margin:26px 0 0}
+nav.links a{display:inline-block;background:var(--surface);border:1px solid var(--rule);
+  border-radius:8px;padding:9px 15px;text-decoration:none;font-weight:600;font-size:15px}
+.card{background:var(--surface);border:1px solid var(--rule);border-radius:10px;
+  padding:18px 20px;margin:0 0 14px}
+.card h3{margin:0 0 6px;font-size:17px}
+.card p:last-child{margin-bottom:0}
+footer{margin-top:56px;padding-top:18px;border-top:1px solid var(--rule);
+  color:var(--ink-soft);font-size:14px}
+footer a{color:var(--ink-soft)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <a class="brand" href="index.html">Tereo — Bible Memorization</a>
+  <h1>Privacy Policy</h1>
+  <p class="effective">Effective 27 September 2026</p>
+</header>
+<section><p>This privacy policy applies to the Tereo app for mobile devices, together with any related services operated by Ben Ellis (collectively, the "Application"). Ben Ellis is referred to below as the "Service Provider".</p></section>
+<section><h2>What the Application collects</h2><p>Tereo can be used without an account. If you use it signed out, your progress stays on your device and nothing is sent to the Service Provider.</p>
+<p>If you create an account, the following is stored:</p>
+<ul><li>Your email address, and the sign-in method you used (email and password, Apple, or Google)</li><li>Your username, display name, and avatar choice</li><li>Your learning progress: verses completed, XP, current and longest streak, and which day each was earned on</li><li>Your friend connections within the app</li><li>Anyone you have blocked, and any report you send us about another user</li></ul>
+<p>As with any internet service, the servers that hold this data receive your device’s IP address in order to respond to it.</p>
+<p>The Application uses PostHog for basic product analytics such as which features are used. Automatic capture of taps and screens, and session replay (screen recording), are both switched off — analytics events are only sent when the Application explicitly logs one.</p>
+<p>If your device is set to a region in the EEA or UK, analytics is off until you actively allow it in a one-time prompt on first launch. Everywhere else, analytics is on by default, consistent with this policy. Either way, you can turn it on or off at any time under Settings → Preferences → Analytics.</p></section>
+<section><h2>Voice and microphone</h2><p>Some lessons ask you to say a verse aloud so it can be scored. This uses the microphone, and only while a speaking stage is open.</p>
+<p>Where your device supports on-device speech recognition, Tereo asks for it, and the audio never leaves your phone. Where it does not, recognition is performed by your device’s own speech service — Apple’s on iOS, Google’s on Android — which may involve sending the audio to those companies under their own privacy policies.</p>
+<p>On a small number of devices where neither is available, the recording is uploaded to the Service Provider’s server and passed to ElevenLabs for transcription. It is used only to score that attempt and is not stored afterwards.</p>
+<p>You can decline microphone access. The speaking stages are skipped and the rest of the app works normally.</p></section>
+<section><h2>How the information is used</h2><ul><li>To provide the Application: saving your progress, restoring it on another device, and keeping your streak accurate</li><li>To show leaderboards and friend activity, if you use those features</li><li>To manage your subscription, if you buy one</li><li>To send you notices you need to receive, and — only where permitted by law — occasional messages about the Application</li></ul>
+<p>Reminders you turn on are scheduled by your device itself. They do not involve a server and nothing is collected in order to send them.</p></section>
+<section><h2>Artificial intelligence</h2><p>The Application uses AI services in two places: generating the spoken audio of a verse, and scoring a verse you recite. Both are provided by ElevenLabs. Verse text sent for audio is public-domain scripture. Audio sent for scoring is covered under "Voice and microphone" above.</p></section>
+<section><h2>Who the information is shared with</h2><p>The Service Provider does not sell your personal information. It is shared with the following services, each of which handles it under its own privacy policy:</p>
+<ul><li>Supabase — hosts the account system and the database holding your profile, progress, streaks and friends</li><li>ElevenLabs — generates verse audio and, on the fallback path described above, transcribes recitations</li><li>Apple — Sign in with Apple, and speech recognition on iOS</li><li>Google — Google Sign-In, and speech recognition on Android</li><li>RevenueCat — manages subscriptions and purchase status</li><li>PostHog — product analytics, hosted on PostHog’s US servers</li></ul>
+<p><a href="https://supabase.com/privacy" rel="noopener">Supabase privacy policy</a></p>
+<p><a href="https://elevenlabs.io/privacy" rel="noopener">ElevenLabs privacy policy</a></p>
+<p><a href="https://www.revenuecat.com/privacy" rel="noopener">RevenueCat privacy policy</a></p>
+<p><a href="https://posthog.com/privacy" rel="noopener">PostHog privacy policy</a></p>
+<p><a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple privacy policy</a></p>
+<p><a href="https://policies.google.com/privacy" rel="noopener">Google privacy policy</a></p>
+<p>The Service Provider may also disclose information as required by law, such as to comply with a subpoena or similar legal process; where there is a good-faith belief that disclosure is necessary to protect rights or safety, investigate fraud, or respond to a government request.</p></section>
+<section><h2>What other users can see</h2><p>If you use the leaderboard or add friends, your username, display name, avatar, streak and XP are visible to other users of the Application. Your email address is never shown to other users.</p></section>
+<section><h2>International data transfers</h2><p>The services above may process personal data in countries outside your country of residence, including outside the European Economic Area. Where applicable law requires safeguards for such transfers, the Service Provider relies on Standard Contractual Clauses approved by the European Commission, adequacy decisions, or other legally recognised mechanisms.</p></section>
+<section><h2>Your rights</h2><p>You may request access to, correction of, or deletion of your personal data, and may withdraw consent where processing is based on it. Withdrawing consent does not affect processing already carried out.</p>
+<p>If you are a California resident, you also have the right to know what personal information is collected, the right to delete it, the right to opt out of its sale or sharing, and the right not to be discriminated against for exercising these rights. The Service Provider does not sell or share personal information as those terms are defined by the CCPA/CPRA.</p>
+<p>To exercise any of these rights, get in touch:</p>
+<p><a href="mailto:tereosupport@gmail.com">tereosupport@gmail.com</a></p></section>
+<section><h2>Deleting your data</h2><p>You can delete your account and its data from inside the Application, under Settings. This removes your profile, progress, streaks and friend connections from the server, and clears what is stored on your device.</p>
+<p>Uninstalling the Application stops any further collection from your device, but does not by itself delete data already stored on the server — use the in-app deletion, or email the address above.</p></section>
+<section><h2>How long data is kept</h2><ul><li>Account and progress data: kept while your account exists, and deleted when you delete it</li><li>Voice recordings sent for transcription: used to score the attempt, then discarded</li><li>Data required for legal or accounting compliance: kept as long as the law requires</li></ul></section>
+<section><h2>Security</h2><p>The Service Provider uses reasonable technical and organisational measures to protect the information it holds, including transport encryption and access controls on the database. No method of transmission or storage is completely secure.</p>
+<p>If a breach affecting your personal data occurs, you will be notified in accordance with applicable legal requirements.</p></section>
+<section><h2>Children</h2><p>The Application is not directed to children under 13, or such higher age as local law requires, and the Service Provider does not knowingly collect personal information from them. Where parental or guardian consent is required by law, the Application is not intended for use without it.</p>
+<p>If you are a parent or guardian and believe a child has provided personal information, please get in touch and it will be deleted.</p></section>
+<section><h2>Changes to this policy</h2><p>This policy may be updated from time to time. Material changes will be posted here with a new effective date, and where the law requires it, your consent will be sought before they take effect. Previous versions are available on request.</p></section>
+<section><h2>Contact</h2><p>Questions about this policy or about how your data is handled:</p>
+<p><a href="mailto:tereosupport@gmail.com">tereosupport@gmail.com</a></p></section>
+<nav class="links"><a href="index.html">Support</a><a href="terms.html">Terms of Service</a><a href="delete-account.html">Delete your account</a></nav>
+<footer>
+  <p>Tereo is made by Ben Ellis. Questions about anything on this page:
+  <a href="mailto:tereosupport@gmail.com">tereosupport@gmail.com</a></p>
+</footer>
+</div>
+</body>
+</html>
